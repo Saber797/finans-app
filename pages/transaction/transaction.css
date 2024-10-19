@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+header{
+    width: 100%;
+    background-color: #F0F0F0;
+  }
+
+  .ds-flx{
+    width: 100%;
+    
+    display: flex;
+     justify-content: space-between;
+    padding: 23px 0;
+  
+  
+     .left-side{
+        display: flex;
+        gap: 21px;
+        
+     }
+     .right-side{
+        display: flex;
+        gap: 21px; 
+        
+     }
+    }
+    .ssd{
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        color: black;
+     }
+     .dss{
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        color: black;
+     }
+
+.transacntion{
+    margin-top: 25px;
+}   
+.email{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #0047FF;
+    
+}  
+tr, td, th {
+    text-align: left;
+  }
+  table {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .add{
+    width: 240px;
+    height: 35px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 44px;
+    border: none;
+}  

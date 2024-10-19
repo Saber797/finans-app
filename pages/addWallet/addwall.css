@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 440px;
+    margin: 10% auto;
+}
+.add-wallet{
+    h1{
+        font-size: 44px;
+    }
+}
+.former{
+    display: flex;
+    flex-direction: column;
+
+    input, select{
+        display: block;
+        margin: 15px 0;
+        width: 440px;
+        height: 55px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    .btn-add{
+        width: 440px;
+        height: 55px;
+        border-radius: 10px;
+        font-size: 18px; 
+        background-color: blue;
+        color: white;
+        border: none;
+    }
+}
+
+
+
+
+

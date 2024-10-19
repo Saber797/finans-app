@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 440px;
+    margin: 10% auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.former{
+    display: flex;
+    flex-direction: column;
+
+    input{
+        display: block;
+        margin: 8px 0;
+        width: 440px;
+        height: 58px;
+        font-size: 18px;
+        border-radius: 8px;
+    } 
+    .signin-btn{
+        width: 440px;
+        height: 58px;
+        font-size: 18px;
+        background-color: blue;
+        color: white;
+        border-radius: 8px;
+    }
+
+}
+a{
+    display: block;
+    text-decoration: none;
+    margin-top: 32px;
+    font-size: 18px;
+    text-align: center;
+}
+.err{
+    color: red;
+}
